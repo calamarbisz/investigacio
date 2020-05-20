@@ -1,6 +1,6 @@
 let img
     function preload() {
-      img = loadImage('room.jpg');
+      img = loadImage('room.png');
     }
     function setup() {
       createCanvas(W = 800, W);
