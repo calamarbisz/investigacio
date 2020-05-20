@@ -38,7 +38,7 @@ function mouseClicked(event) {
       } else if (mouseClicked) {
         push()
         noFill()
-        image(img, x, y, w, h, ix, iy, iw, ih)
+        image(img, x, y, windowWidth, windowHeight, ix, iy, iw, ih)
         noStroke()
         rect(x, y, w, h)
         pop()
