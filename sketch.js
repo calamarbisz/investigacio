@@ -22,10 +22,10 @@ function mouseClicked(event) {
 
     function divide(x, y, w, h, depth, ix, iy, iw, ih) {
       if (depth > 0) {
-        const n = noise(w / width * 1, w / height * 2, frameCount / 2000 * depth)
-        if (depth-- % 3 === 1) {
+        const n = noise(w / width * 1, w / height * 2, frameCount / 500 * depth)
+        if (depth-- % 2 === 1) {
           divide(x, y, w * n, h, depth,
-            ix, iy, iw / 5, ih)
+            ix, iy, iw / 2, ih)
           divide(x + w * n, y, w - w * n, h, depth,
             ix + iw / 2, iy, iw / 2, ih)
         } else {
