@@ -2,7 +2,7 @@
     let img
 		let value=0
     function preload() {
-      img = loadImage('room.png');
+      img = loadImage('smoke.jpg');
     }
     function setup() {
       createCanvas(W = windowWidth, windowHeight);
