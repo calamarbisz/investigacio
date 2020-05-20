@@ -12,7 +12,7 @@ let value=0
     let index = 0
     function draw() {
       //background();
-      divide(0, 0, windowWidth, windowHeight, 6, 0, 0, windowWidth, windowHeight)
+      divide(0, 0, 100, 100, 6, 0, 0, windowWidth, windowHeight)
     }
 
     function divide(x, y, w, h, depth, ix, iy, iw, ih) {
