@@ -31,7 +31,7 @@ let value=0
             ix, iy + ih / 2, iw, ih / 2
           )
         }
-      } else if (mouseClicked) {
+      } else {
         push()
         noFill()
         image(img, x, y, windowWidth, windowHeight, ix, iy, iw, ih)
