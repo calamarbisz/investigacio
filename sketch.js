@@ -5,12 +5,12 @@ let img
     function setup() {
       createCanvas(W = windowWidth, windowHeight);
       colorMode(HSB, 360, 100, 100, 1)
-      background(0);
+      background(img, windowWidth,windowHeight);
     }
 
     let index = 0
     function draw() {
-      background(0);
+      background(img, windowWidth,windowHeight);
       divide(0, 0, windowWidth, windowHeight, 6, 0, 0, windowWidth, windowHeight)
     }
 
