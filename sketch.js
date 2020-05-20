@@ -3,7 +3,7 @@ let img
       img = loadImage('room.png');
     }
     function setup() {
-      createCanvas(W = 800, W);
+      createCanvas(W = windowWidth, windowHeight);
       colorMode(HSB, 360, 100, 100, 1)
       background(0);
     }
