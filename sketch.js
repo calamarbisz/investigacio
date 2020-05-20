@@ -11,7 +11,7 @@ let img
     let index = 0
     function draw() {
       background(0);
-      divide(0, 0, width, height, 6, 0, 0, width, height)
+      divide(0, 0, windowWidth, windowHeight, 6, 0, 0, windowWidth, windowHeight)
     }
 
     function divide(x, y, w, h, depth, ix, iy, iw, ih) {
