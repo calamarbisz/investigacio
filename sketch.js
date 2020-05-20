@@ -1,7 +1,7 @@
 let img
 let value=0
     function preload() {
-      img = loadImage('mall.png');
+      img = loadImage('room.png');
     }
     function setup() {
       createCanvas(W = windowWidth, windowHeight);
