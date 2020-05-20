@@ -1,17 +1,13 @@
 let img
-		let value=0
+let value=0
     function preload() {
-      img = loadImage('room.png');
+      img = loadImage('mall.png');
     }
     function setup() {
       createCanvas(W = windowWidth, windowHeight);
       colorMode(HSB, 360, 100, 100, 1)
       background(img, windowWidth,windowHeight);
     }
-
-function mouseClicked(event) {
-  console.log(event);
-}
 
     let index = 0
     function draw() {
