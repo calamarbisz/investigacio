@@ -6,7 +6,7 @@ let offset
 let offsetDelta
 
 function preload() {
-	layerBase = loadImage('staircase.jpg')
+	layerBase = loadImage('overlay/staircase.jpg')
 }
 
 function setup() {
